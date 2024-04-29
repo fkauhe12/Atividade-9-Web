@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 09</title>
+    <link rel="stylesheet" href="css/style_atv.css">
+</head>
+<body>
+    <div id="principal">
+        
+        <div id="titulo">
+            <h1>Consulta de aprovados em matemática</h1>
+        </div> 
+        
+        <div id="qtd_turmas">
+            <label>Digite o número de turmas:</label>
+            <input type="number" name="turma" id="turma" min="1" max="20" onchange="num_turmas()">
+        </div>
+     
+        <div id="qtd_alunos">
+        </div>
+        
+        <div id="but">
+            <button onclick="estatisticas_alunos()">calcular</button>
+        </div>
+    </div>
+    <script src="js/script_atv.js"></script>
+</body>
+</html>
